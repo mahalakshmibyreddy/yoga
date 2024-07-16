@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    .container{
+        height: 400px;
+        width:100%;
+        background-color: gray;
+    }
+    .container img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 45%;
+    }
+    .container h1{
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: 30%;
+        color: white;
+    }
+    
+    
+    .container h5{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 40%;
+        color: white;
+        margin-top: 20px;
+    }
+    .buttons button{
+        height:140px;
+        width:410px;
+        margin-top: 40px;
+        border: none;
+        margin-left: 30px;
+        
+    }
+    .buttons h2{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .buttons1 button{
+        height:140px;
+        width:410px;
+        margin-top: 40px;
+        border: none;
+        margin-left: 30px;
+        
+    }
+    .buttons1 h2{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .about{
+        margin-top:80px;
+        margin-left: 80px;
+        padding: 180px;
+        
+    }
+    .about h1{
+        font-size: 80px;
+    }
+    .about p{
+        font-size: 26px;
+    }
+    .text{
+        background-color: gray;
+        font-size: 18px;
+    }
+    
+    .curv-image{
+        display: flex;
+        padding:40px;
+        background-color: gray;
+    }
+    .image1 img{
+        margin-left: 30px;
+        height: 400px;
+        width:380px;
+        border-radius: 0px 250px 0px 0px;
+    }
+    .image1 h2{
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    }
+    .image1 button{
+        font-size: 25px;
+        margin-left: 30px;
+        background-color: green;
+        border: none;
+        margin-top: 30px;
+        color: white;
+        height: 45px;
+        width: 160px;
+        border-radius: 25px;
+        }
+    
+        
+    .header3{
+        font-size: 50px;
+        padding-left: 20px;
+     }
+     .hero{
+        width: 100%;
+        padding-left: 30px;
+        display: flex;
+        margin-top: -90px;
+    }
+    .input-group{
+        width: 90%;
+        max-width: 600px;
+        position: relative;
+    }
+    #email-field{
+        display: block;
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid #555;
+        background: transparent;
+        outline: none;
+        font-size: 26px;
+        padding: 5px 2px;
+        position: relative;
+        z-index: 10;
+    }
+    #email-label{
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        left: 2px;
+        color: #777;
+        font-size: 18px;
+        transition: bottom 0.3s;
+    }
+    #email-error{
+        position: absolute;
+        top: 100%;
+        left: 2px;
+        font-size: 16px;
+        font-weight: 400;
+        color: red;
+    }
+    .h3 button{
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 30px;
+        background:rgb(28, 102, 28);
+        color: white;
+        border-radius: 20px;
+        border: none;
+        height: 50px;
+        width: 140px;
+    }
+    .h4{
+        padding-top: 100px;
+    }
+    .h4 i{
+        height: 41px;
+        padding-top: 10px;
+        width: 50px;
+        text-align: center;
+        background:rgb(28, 102, 28) ;
+        font-size: 30px;
+        color: white;
+        border-radius: 50%;
+        margin-left: 30px;
+    }
+    .h5{
+        height: 200px;
+        padding-top: 80px;
+        text-align: center;
+    }

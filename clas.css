@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    height: 2000px;
+    width: 100%;
+}
+.h2{
+    height: 100px;
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.h2 ul a{
+list-style-type: none;
+text-decoration: none;
+}
+.h2 ul button{
+    height: 35px;
+    width: 120px;
+    margin-left: 80px;
+    background: black;
+    color: #fff;
+}
+.header1{
+    height: 700px;
+    width: 88%;
+    background-image: url(images/p2.webp);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 80px;
+    border-radius: 20px;
+
+}
+.header1 h1{
+    margin-top: 200px;
+}
+.header1 button{
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+}
+.header2{
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+.lotus{
+    height: 450px;
+    width: 90%;
+    margin-left: 67px;
+    background:rgb(184, 187, 189);
+    border-radius: 20px;
+}
+.lotus button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.lotus h1{
+    margin-left:80px ;
+    font-size: 40px;
+}
+.lotus p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.lotus input{
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+ .lotus img{
+    margin-left: 350px;
+    margin-top: -270px;
+}
+.yoga{
+    height: 450px;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 67px;
+    background:rgb(184, 187, 189);
+    border-radius: 20px;
+}
+.yoga button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.yoga h1{
+    margin-left:80px ;
+    font-size: 40px;
+}
+.yoga p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.yoga input{
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+ .yoga img{
+    margin-left: 350px;
+    margin-top: -270px;
+}
+.park{
+    height: 450px;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 67px;
+    background:rgb(184, 187, 189);
+    border-radius: 20px;
+}
+.park button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.park h1{
+    margin-left:80px ;
+    font-size: 40px;
+}
+.park p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.park input{
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+ .park img{
+    margin-left: 350px;
+    margin-top: -270px;
+}
+.sunset{
+    height: 450px;
+    margin-top: 100px;
+    width: 90%;
+    margin-left: 67px;
+    background: rgb(184, 187, 189);
+    border-radius: 20px;
+}
+.sunset button{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.sunset h1{
+    margin-left:80px ;
+    font-size: 40px;
+}
+.sunset p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+.sunset input{
+    height: 50px;
+    width: 120px;
+    margin-left: 80px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+ input:hover{
+    background: rgba(255, 255, 255, 0.993);
+    border: 1px solid #fff;
+    color: #c03232;
+}
+ .sunset img{
+    margin-left: 350px;
+    margin-top: -270px;
+ }
+ .header3{
+    padding-top: 300px;
+    font-size: 50px;
+    padding-left: 20px;
+ }
+ .hero{
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    margin-top: -90px;
+}
+.input-group{
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+}
+#email-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    outline: none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+#email-label{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+#email-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
+.h3 button{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 30px;
+    background:rgb(28, 102, 28);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    width: 140px;
+}
+.h4{
+    padding-top: 100px;
+}
+.h4 i{
+    height: 41px;
+    padding-top: 10px;
+    width: 50px;
+    text-align: center;
+    background:rgb(28, 102, 28) ;
+    font-size: 30px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.h5{
+    height: 200px;
+    padding-top: 80px;
+    text-align: center;
+}

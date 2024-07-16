@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  body{
+    background: #8bf06d;
+  }
+  .h2{
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    
+}
+.h2 ul a{
+list-style-type: none;
+text-decoration: none;
+}
+.h2 ul button{
+    height: 35px;
+    width: 120px;
+    margin-left: 80px;
+    background: black;
+    color: #fff;
+}
+  
+  .wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 550px;
+    height: 400px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(155, 225, 155); 
+  }
+  
+  .wrapper h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  .wrapper h4{
+    margin-left: 30px;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  .wrapper .input_field input[type="Email"]{
+    height: 40px;
+    width: 70%;
+    border: 1px solid #141313;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .wrapper .input_field input[type="text"],.wrapper textarea
+  {
+    border: 1px solid #141313;
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+    
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: 140px;
+    background: #137261;
+    color: #fcfbf9;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    /* transition: all 0.5s ease; */
+  }
+ 
+  

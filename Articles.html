@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="Articles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="h2">
+            <ul>
+                <a style="font-size: 40px;padding-left: 70px " href="#" > <img src="images/p1.png" height="70px" width="180px" > </a>
+                <a style="font-size: 20px;padding-left: 500px;"  href="Home.html" >Home</a>
+                <a style="font-size: 20px;padding-left: 30px;" href="About.html" >About</a>
+                <a style="font-size: 20px;padding-left: 30px;" href="clas.html" >Clasess</a>
+                <a style="font-size: 20px;padding-left: 30px;" href="Article.html" >Articles</a> 
+                <a style="font-size: 20px;padding-left: 30px;" href="contact.html" >Contact</a> 
+               </ul>
+             </div>
+             <div class="header1">
+                <h1>BLOG</h1>
+             </div>
+             <div class="one">
+                <img src="images/p8.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+                     
+             </div>
+             <div class="two">
+                <img src="images/p9.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+             </div>
+             <div class="three">
+                <img src="images/p10.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+             </div>
+             <div class="four">
+                <img src="images/p11.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+             </div>
+             <div class="five">
+                <img src="images/p12.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+             </div>
+             <div class="six">
+                <img src="images/p13.jpg" alt="">
+                <p>April 3, 2024</p><br>
+                <h4>Yoga for Busy Lives:<br>
+                     Finding Balance in <br>
+                     a Hectic World</h4>
+             </div>
+             <div class="header3">
+                <hr align="left"size="5" width="95%" style="margin-left: 20px; margin-top: 1800px;">
+                <h1>Start your Journey</h1><br><br>
+            </div>
+            <div class="hero">
+                <div class="input-group">
+                    <label  id="email-label">Email Address</label>
+                    <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                </div>
+            </div>
+            <br><br>
+            <button style="height: 50px; width: 120px; border-radius: 10px; background: rgb(28, 102, 28); color: white;
+            margin-left: 30px; font-size: 25px; border: none;">jion now</button><BR><BR><BR><BR>
+     <div class="h3">
+        <a href="home.html"><button style="margin-left: 30px;">Home</button></a>
+        <a href="About.html"><button>About</button></a>
+        <a href="Class.html"><button>Clasess</button></a>
+        <a href="Article.html"><button>Article</button></a>
+        <a href="Contact.html"><button>Contact</button></a>
+     </div>
+     <div class="h4">
+        <h1 style="margin-left: 30px;">FOLLOW US</h1><br>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+     </div>
+     <div class="h5">
+        <h3>All Rights Reserved 2024</h3><br><br>
+        <p>Powered by Webflow<br>
+            Website by Aureo Design</p>
+     </div>
+    </div>
+
+    <script>
+        var emailField=document.getElementById("email-field");
+        var emailLabel=document.getElementById("email-label");
+        var emailError=document.getElementById("email-error");
+
+        function validateEmail(){
+            emailLabel.style.bottom="45px";
+            if(!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+                emailError.innerHTML="please enter a valid email";
+                emailField.style.borderBottomColor="red";
+                return false;
+            }
+            emailError.innerHTML="";
+            emailField.style.borderBottomColor="green";
+            return true;
+            
+        }
+    </script>
+</body>
+</html>
